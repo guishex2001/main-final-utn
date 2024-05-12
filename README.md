@@ -2,7 +2,7 @@
 ```
 git clone https://github.com/guishex2001/main-final-utn.git
 ```
-2)instalar dependecias con ejecutando en la terminal "npm install" en las dos carpetas "client" y "server"
+2)instalar dependecias ejecutando en la terminal "npm install" en las dos carpetas "client" y "server"
 
 
 3)configurar conexion con la base de datos en el archivo /server/config/db.js   
