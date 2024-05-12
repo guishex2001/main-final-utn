@@ -1,7 +1,15 @@
 1)clonar repositorio
+
+
 2)instalar dependecias con "npm install" en las dos carpetas "client" y "server"
+
+
 3)configurar conexion con la base de datos 
+
+
 4)levantar servidor ejecutando en la terminal "node app.js" en la carpeta server
+
+
 5)Ejecutar el cliente con el comando "npm run dev" en la carpeta client
 
 Opcional: 
