@@ -1,10 +1,11 @@
 1)clonar repositorio
-
-
+```
+git clone https://github.com/guishex2001/main-final-utn.git
+```
 2)instalar dependecias con ejecutando en la terminal "npm install" en las dos carpetas "client" y "server"
 
 
-3)configurar conexion con la base de datos 
+3)configurar conexion con la base de datos en el archivo /server/config/db.js   
 
 
 4)levantar servidor ejecutando en la terminal "node app.js" en la carpeta server
