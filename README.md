@@ -1,7 +1,7 @@
 1)clonar repositorio
 
 
-2)instalar dependecias con "npm install" en las dos carpetas "client" y "server"
+2)instalar dependecias con ejecutando en la terminal "npm install" en las dos carpetas "client" y "server"
 
 
 3)configurar conexion con la base de datos 
