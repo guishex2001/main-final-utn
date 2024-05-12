@@ -12,7 +12,7 @@ node app.js
 
 
 El envio de mails esta configurado para que llegue un aviso a la hora de agregar un nuevo trabajo
-para configurar el envio de mails nos dirigimos al archivos Jobscontroller.js y remplazamos el mail don quieres que te lleguen los avisos
+para configurar el envio de mails nos dirigimos al archivo  controllers/Jobscontroller.js y remplazamos el mail don quieres que te lleguen los avisos
 
 ```
 // Envío de correo electrónico
