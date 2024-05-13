@@ -47,7 +47,7 @@ function NewJobsBanner() {
 
       {/* Content */}
       <div className="relative">
-        <h1 className="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold mb-1">Agrega un nuevo trabajos! 💼</h1>
+        <h1 className="text-2xl md:text-3xl text-slate-800 dark:text-slate-100 font-bold mb-1">Agrega un nuevo trabajo! 💼</h1>
       </div>
     </div>
   );
