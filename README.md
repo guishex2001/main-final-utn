@@ -1,24 +1,20 @@
-# Personal Portfolio Project
+Personal Portfolio Project
+Este proyecto es un portafolio personal desarrollado utilizando tecnologías de desarrollo web tanto en el lado del cliente (frontend) como en el servidor (backend).
 
-Este proyecto es un portafolio personal desarrollado utilizando tecnologías de desarrollo web tanto en el lado del cliente (frontend) como en el servidor (backend). 
-
-## Tecnologías Utilizadas
-
-### Frontend
-- **React**: Utilizado para construir una interfaz de usuario interactiva, organizada en componentes como:
-  - **Dashboard**: Panel principal del portafolio.
-  - **ProfileCard**: Muestra información personal.
-  - **TechStackCard**: Lista las tecnologías utilizadas.
-  - **JobsPage**: Gestiona ofertas de trabajo.
-
-### Backend
-- **Express.js**: Maneja las solicitudes HTTP, interactúa con la base de datos para operaciones CRUD (crear, leer, actualizar, eliminar) sobre trabajos, y envía correos electrónicos al agregar nuevos trabajos.
-- **Handlebars**: Motor de plantillas utilizado en el servidor Express.js para generar HTML dinámico.
-
-## Configuración del Proyecto
-
-### Clonar el Repositorio
-```bash
+Tecnologías Utilizadas
+Frontend
+React: Utilizado para construir una interfaz de usuario interactiva, organizada en componentes como:
+Dashboard: Panel principal del portafolio.
+ProfileCard: Muestra información personal.
+TechStackCard: Lista las tecnologías utilizadas.
+JobsPage: Gestiona ofertas de trabajo.
+Backend
+Express.js: Maneja las solicitudes HTTP, interactúa con la base de datos para operaciones CRUD (crear, leer, actualizar, eliminar) sobre trabajos, y envía correos electrónicos al agregar nuevos trabajos.
+Handlebars: Motor de plantillas utilizado en el servidor Express.js para generar HTML dinámico.
+Configuración del Proyecto
+Clonar el Repositorio
+bash
+Copiar código
 git clone https://github.com/guishex2001/main-final-utn.git
 Instalar Dependencias
 Ejecutar el siguiente comando en las carpetas "client" y "server":
