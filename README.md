@@ -58,7 +58,7 @@ Para iniciar la aplicación cliente, navega a la carpeta `client` y ejecuta el s
 ```
 npm run dev
 ```
-### (Opcional). Envio de Mails
+### 7️⃣(Opcional). Envio de Mails
  Configuración del Envío de Emails
 El envío de emails está configurado para notificar cuando se agrega un nuevo trabajo. Para configurar el envío de emails, edita el archivo `server/controllers/Jobscontroller.js` y reemplaza el correo electrónico en el campo to con el correo donde deseas recibir las notificaciones:
 ```
