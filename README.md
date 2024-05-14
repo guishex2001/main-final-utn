@@ -42,7 +42,7 @@ app.engine('handlebars', exphbs.engine);
 
 ### 5. Levantar el Servidor
 
-Para iniciar el servidor, ejecuta el siguiente comando en la carpeta server:
+Para iniciar el servidor, ejecuta el siguiente comando en la carpeta `server`:
 
 ```
 node app.js
@@ -50,7 +50,7 @@ node app.js
 
 ### 6. Ejecutar el Cliente
 
-Para iniciar la aplicación cliente, navega a la carpeta client y ejecuta el siguiente comando:
+Para iniciar la aplicación cliente, navega a la carpeta `client` y ejecuta el siguiente comando:
 
 
 ```
