@@ -1,28 +1,57 @@
-1)clonar repositorio
-```
+# Personal Portfolio Project
+
+Este proyecto es un portafolio personal desarrollado utilizando tecnologías de desarrollo web tanto en el lado del cliente (frontend) como en el servidor (backend). 
+
+## Tecnologías Utilizadas
+
+### Frontend
+- **React**: Utilizado para construir una interfaz de usuario interactiva, organizada en componentes como:
+  - **Dashboard**: Panel principal del portafolio.
+  - **ProfileCard**: Muestra información personal.
+  - **TechStackCard**: Lista las tecnologías utilizadas.
+  - **JobsPage**: Gestiona ofertas de trabajo.
+
+### Backend
+- **Express.js**: Maneja las solicitudes HTTP, interactúa con la base de datos para operaciones CRUD (crear, leer, actualizar, eliminar) sobre trabajos, y envía correos electrónicos al agregar nuevos trabajos.
+- **Handlebars**: Motor de plantillas utilizado en el servidor Express.js para generar HTML dinámico.
+
+## Configuración del Proyecto
+
+### Clonar el Repositorio
+```bash
 git clone https://github.com/guishex2001/main-final-utn.git
-```
-2)instalar dependecias ejecutando en la terminal "npm install" en las dos carpetas "client" y "server"
+Instalar Dependencias
+Ejecutar el siguiente comando en las carpetas "client" y "server":
 
+bash
+Copiar código
+npm install
+Configurar Conexión con la Base de Datos
+Editar el archivo /server/config/db.js con los detalles de la conexión a la base de datos.
 
-3)configurar conexion con la base de datos en el archivo /server/config/db.js   
+Levantar el Servidor
+Ejecutar el siguiente comando en la carpeta "server":
 
+bash
+Copiar código
+node app.js
+Ejecutar el Cliente
+Ejecutar el siguiente comando en la carpeta "client":
 
-4)levantar servidor ejecutando en la terminal "node app.js" en la carpeta server
+bash
+Copiar código
+npm run dev
+Configuración Opcional: Envío de Correos Electrónicos
+El envío de correos electrónicos está configurado para notificar cuando se agrega un nuevo trabajo. Para configurar el envío de correos, edite el archivo server/controllers/Jobscontroller.js y reemplace la dirección de correo electrónico en el siguiente bloque de código:
 
-
-5)Ejecutar el cliente con el comando "npm run dev" en la carpeta client
-
-Opcional: 
-El envio de mails esta configurado para que llegue un aviso a la hora de agregar un nuevo trabajo para configurar el envio de mails nos 
-dirigimos al archivo server/controllers/Jobscontroller.js y remplazamos el mail donde quieres que te lleguen los avisos
-
-```
+javascript
+Copiar código
 // Envío de correo electrónico
-    await transporter.sendMail({
-        from: 'ejemplo@codecat.site', // Tu dirección de correo electrónico del panel Feroso
-        to: 'supraguille@gmail.com', // reemplazar mail donde quieras que te lleguen el aviso por mail
-      subject: 'Nuevo trabajo creado',
-      text: `Se ha creado un nuevo trabajo: ${title}`
-    });
-```
+await transporter.sendMail({
+    from: 'ejemplo@codecat.site', // Tu dirección de correo electrónico
+    to: 'supraguille@gmail.com', // Reemplazar con la dirección de correo deseada
+    subject: 'Nuevo trabajo creado',
+    text: `Se ha creado un nuevo trabajo: ${title}`
+});
+Resumen
+Este portafolio personal es una aplicación web completa que demuestra habilidades en desarrollo full stack, utilizando React para el frontend, Express.js y Handlebars para el backend, y otras tecnologías como CSS para estilos y Axios para solicitudes HTTP. Este proyecto incluye instrucciones detalladas para su configuración y ejecución, proporcionando una base sólida para la presentación de proyectos y habilidades personales.
