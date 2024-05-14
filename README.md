@@ -23,16 +23,19 @@ Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 
 ```bash
 git clone https://github.com/guishex2001/main-final-utn.git
+```
 Instalar Dependencias
 Navega a las carpetas client y server y ejecuta npm install en cada una para instalar las dependencias necesarias.
-
+```
 cd client
 npm install
+```
 cd ../server
 npm install
 Configurar la Base de Datos
 Configura la conexión a tu base de datos en el archivo /server/config/db.js.
 
+```
 Levantar el Servidor
 En la carpeta server, ejecuta el siguiente comando para iniciar el servidor:
 
