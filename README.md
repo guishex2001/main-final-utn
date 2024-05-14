@@ -74,4 +74,3 @@ Guille García - Desarrollador Fullstack apasionado por la tecnología.
 Esperamos que disfrutes utilizando este proyecto tanto como nosotros disfrutamos desarrollándolo.
 
 
-Este `README.md` mejorado proporciona una guía paso a paso más clara para configurar y ejecutar el proyecto, incluyendo detalles sobre el motor de plantillas Handlebars, lo cual es útil para nuevos usuarios o colaboradores del proyecto.
